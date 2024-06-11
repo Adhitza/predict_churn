@@ -1,1 +1,15 @@
-# predict_churn
+Permasalahan : Dalam industri telekomunikasi, di mana pelanggan memiliki fleksibilitas untuk memilih dari beberapa penyedia layanan dan sering berpindah di antara mereka, tingkat churn tahunan rata-rata antara 15% hingga 25% adalah hal yang biasa. Perlu dicatat bahwa biaya untuk mendapatkan pelanggan baru jauh lebih tinggi, seringkali 5 hingga 10 kali lebih besar, dibandingkan dengan mempertahankan pelanggan yang sudah ada. Akibatnya, retensi pelanggan mempunyai posisi yang lebih penting daripada akuisisi pelanggan. Bagi banyak operator lama di sektor telekomunikasi, tujuan bisnis utama adalah mempertahankan pelanggan dengan keuntungan tinggi. Untuk memerangi churn pelanggan secara efektif, perusahaan telekomunikasi harus fokus dalam memprediksi pelanggan mana yang berisiko tinggi untuk churn.
+
+Solusi yang ditawarkan :
+
+Memprediksi perpindahan pelanggan sangat penting bagi perusahaan telekomunikasi agar dapat mempertahankan pelanggan secara efektif. Mendapatkan pelanggan baru lebih mahal dibandingkan mempertahankan pelanggan yang sudah ada. Oleh karena itu, perusahaan telekomunikasi besar berupaya mengembangkan model untuk memprediksi pelanggan mana yang lebih mungkin berubah dan mengambil tindakan yang sesuai.
+
+Dalam lanskap dinamis di sektor telekomunikasi, pelanggan memiliki kemampuan untuk memilih dari banyak penyedia layanan dan melakukan transisi tanpa hambatan di antara penyedia layanan tersebut. Pasar yang sangat kompetitif ini menyaksikan tingkat churn tahunan yang berkisar antara 15% dan 25%. Sangat penting untuk menyadari bahwa biaya yang terkait dengan pengadaan pelanggan baru jauh lebih besar daripada biaya mempertahankan pelanggan yang sudah ada, sering kali dengan faktor 5 hingga 10. Akibatnya, penekanan pada retensi pelanggan semakin menonjol, melampaui fokus tradisional pada akuisisi pelanggan.
+
+Bagi banyak pemain mapan di industri telekomunikasi, tujuan bisnis terpenting kini berkisar pada mempertahankan basis pelanggan mereka yang paling menguntungkan.
+
+Input : Jangka Waktu Pelanggan (dalam bulan) Layanan Telepon: (Tidak) atau (Ya) Jenis Kontrak: (Bulan ke bulan), (Satu tahun), (Dua tahun) Penagihan Tanpa Kertas: (Tidak) atau (Ya) Metode Pembayaran : (Transfer bank - otomatis), (Kartu kredit - otomatis), (Cek elektronik), (Cek yang dikirim melalui pos) Biaya Bulanan ($)
+
+Output Aplikasi akan menampilkan pesan berikut: "Pelanggan diharapkan melakukan churn." atau "Pelanggan diperkirakan tidak akan melakukan churn." "Kemungkinan churn adalah: (X, Y)."
+
+Penjelasan tentang Dataset: Kumpulan data yang digunakan dalam artikel ini tersedia di Kaggle (CC BY-NC-ND) dan berisi sembilan belas kolom (variabel independen) yang menunjukkan karakteristik klien dari perusahaan telekomunikasi fiksi. Kolom “Churn” (variabel respons) menunjukkan apakah pelanggan berangkat dalam sebulan terakhir atau tidak. Kelas “Tidak” mencakup klien yang tidak meninggalkan perusahaan bulan lalu, sedangkan kelas “YA” berisi klien yang memutuskan untuk mengakhiri hubungan mereka dengan perusahaan. Tujuan dari analisis ini adalah untuk mengetahui hubungan antara karakteristik pelanggan dan churn.
