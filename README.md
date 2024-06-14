@@ -8,8 +8,4 @@ Dalam lanskap dinamis di sektor telekomunikasi, pelanggan memiliki kemampuan unt
 
 Bagi banyak pemain mapan di industri telekomunikasi, tujuan bisnis terpenting kini berkisar pada mempertahankan basis pelanggan mereka yang paling menguntungkan.
 
-Input : Jangka Waktu Pelanggan (dalam bulan) Layanan Telepon: (Tidak) atau (Ya) Jenis Kontrak: (Bulan ke bulan), (Satu tahun), (Dua tahun) Penagihan Tanpa Kertas: (Tidak) atau (Ya) Metode Pembayaran : (Transfer bank - otomatis), (Kartu kredit - otomatis), (Cek elektronik), (Cek yang dikirim melalui pos) Biaya Bulanan ($)
-
-Output Aplikasi akan menampilkan pesan berikut: "Pelanggan diharapkan melakukan churn." atau "Pelanggan diperkirakan tidak akan melakukan churn." "Kemungkinan churn adalah: (X, Y)."
-
 Penjelasan tentang Dataset: Kumpulan data yang digunakan dalam artikel ini tersedia di Kaggle (CC BY-NC-ND) dan berisi sembilan belas kolom (variabel independen) yang menunjukkan karakteristik klien dari perusahaan telekomunikasi fiksi. Kolom “Churn” (variabel respons) menunjukkan apakah pelanggan berangkat dalam sebulan terakhir atau tidak. Kelas “Tidak” mencakup klien yang tidak meninggalkan perusahaan bulan lalu, sedangkan kelas “YA” berisi klien yang memutuskan untuk mengakhiri hubungan mereka dengan perusahaan. Tujuan dari analisis ini adalah untuk mengetahui hubungan antara karakteristik pelanggan dan churn.
